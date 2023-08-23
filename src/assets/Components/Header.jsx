@@ -9,8 +9,6 @@ export default function Header() {
         <img src='/Logo.png' className='h-10 fill-current'></img>
 
         <HamburgerButton/>
-        {/* <button className='text-gray-600 hover:text-gray-300'>
-        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>            </button> */}
         </div>
 
         <div id='home-section'>
