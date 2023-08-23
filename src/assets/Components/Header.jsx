@@ -1,4 +1,5 @@
 import React from 'react'
+import HamburgerButton from './HamburgerButton'
 
 export default function Header() {
   return (
@@ -6,12 +7,13 @@ export default function Header() {
     <div className='max-w-8xl w-full p-2' >
         <div className='flex items-center justify-between text-pink-00'>
         <img src='/Logo.png' className='h-10 fill-current'></img>
-  
-        <button className='text-gray-600 hover:text-gray-300'>
-        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>            </button>
+
+        <HamburgerButton/>
+        {/* <button className='text-gray-600 hover:text-gray-300'>
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>            </button> */}
         </div>
 
-        <div>
+        <div id='home-section'>
             <h1 className='px-4 text-indigo-100 text-2xl'>Spyder: Uncover the Web's Best Deals</h1>
             <p className='px-4 text-indigo-200 '> Your Ultimate E-commerce Companion for Finding the Best Deals and Products from Across the Web.</p>
 

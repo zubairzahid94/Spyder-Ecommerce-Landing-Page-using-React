@@ -3,17 +3,17 @@ import React from 'react'
 export default function Main() {
   return (
     <main className='w-full flex flex-col mt-8 items-center'>
-        <div className='max-w-8xl w-full p-2'>
+        <div id='work-section' className='max-w-8xl w-full p-2'>
 
           <h2 className='text-left ml-2 text-indigo-700 text-xl border-b-2 border-indigo-400'>How it Works</h2>  
           <p class="text-left ml-2 text-sm mt-4 text-gray-600">Spyder revolutionizes online shopping. It scours various websites, extracting the cream of the crop – the most appealing products and unbeatable deals. With Spyder, you effortlessly access a refined selection, saving you time and guaranteeing the best finds from the vast web. At Spyder, we harness cutting-edge technology to sift through countless websites, handpicking superior products and irresistible bargains. Simplifying your shopping journey, we present a tailored assortment that matches your taste and budget, bringing the best of the internet directly to your fingertips</p>
-
+          
           <h2 className='text-left ml-2 text-indigo-700 text-xl border-b-2 border-indigo-400 mt-4'>Services</h2>  
 
 
 
 
-          <div className='mt-4'>
+          <div id='service-section' className='mt-4'>
             <div className='flex flex-col sm:flex-row'>
                 <div className='bg-white max-w-md sm:w-1/3 md:w-1/3 flex flex-col justify-center items-center rounded-lg border-b-2 border-pink-500 h-64 m-4 p-2'>
                     <div className=''>
@@ -69,7 +69,7 @@ export default function Main() {
 
         </div>
 
-        <div className='bg-gray-800 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black'>
+        <div id='contact-section' className='bg-gray-800 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black'>
             <h2 className='text-xl text-gray-200 mt-4'>Sign up to download the free PDF</h2>
 
             <form className='max-w-xl w-full text-gray-200 mt-4 px-8 md:px-0" action="#" method="post'>
@@ -93,7 +93,7 @@ export default function Main() {
 
                 </div>
                 <div class="flex flex-col md:flex-row md:-mx-2">
-                        <button class="bg-blue-600 text-sm mt-4 rounded-lg py-2 px-4 w-full md:mx-2">Create account</button>
+                        <button class="bg-blue-600 text-sm mt-4 rounded-lg py-2 px-4 w-full md:mx-2 hover:bg-blue-900">Create account</button>
                     </div>
 
 
